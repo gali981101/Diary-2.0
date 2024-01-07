@@ -1,0 +1,126 @@
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "1cW-Dr-s80"; */
+"1cW-Dr-s80.title" = "Item";
+
+/* Class = "UILabel"; text = "Full Date"; ObjectID = "6a5-zt-dps"; */
+"6a5-zt-dps.text" = "Full Date";
+
+/* Class = "UINavigationItem"; title = "Journal"; ObjectID = "7Iy-Mg-zHl"; */
+"7Iy-Mg-zHl.title" = "小日記";
+
+/* Class = "UITextField"; placeholder = "Fill in the date "; ObjectID = "75K-aP-hFG"; */
+"75K-aP-hFG.placeholder" = "填上日期 ";
+
+/* Class = "UITextField"; placeholder = "Fill in the weather"; ObjectID = "bG0-65-4M2"; */
+"bG0-65-4M2.placeholder" = "寫下天氣狀況";
+
+/* Class = "UITextField"; placeholder = "Fill in the title "; ObjectID = "dOe-rp-XIa"; */
+"dOe-rp-XIa.placeholder" = "填寫標題 ";
+
+/* Class = "UILabel"; text = "DATE"; ObjectID = "Dr7-VZ-ZEP"; */
+"Dr7-VZ-ZEP.text" = "日期";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "dSK-lX-8fR"; */
+"dSK-lX-8fR.text" = "日期";
+
+/* Class = "UIButton"; configuration.title = "Sad"; ObjectID = "esq-fB-4a3"; */
+"esq-fB-4a3.configuration.title" = "難過";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "esq-fB-4a3"; */
+"esq-fB-4a3.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "euy-be-rXN"; */
+"euy-be-rXN.text" = "標題";
+
+/* Class = "UILabel"; text = "Summary"; ObjectID = "Faf-hs-Uhp"; */
+"Faf-hs-Uhp.text" = "內容";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "gZY-kV-nBM"; */
+"gZY-kV-nBM.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Nice"; ObjectID = "hEI-nq-NC2"; */
+"hEI-nq-NC2.configuration.title" = "爽";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "hEI-nq-NC2"; */
+"hEI-nq-NC2.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "New Diary"; ObjectID = "i6h-bK-Ktj"; */
+"i6h-bK-Ktj.title" = "新增日記";
+
+/* Class = "UIButton"; configuration.title = "Awesome"; ObjectID = "IZi-qc-i5n"; */
+"IZi-qc-i5n.configuration.title" = "愛死了";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "IZi-qc-i5n"; */
+"IZi-qc-i5n.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "JC4-uR-b7W"; */
+"JC4-uR-b7W.text" = "描述";
+
+/* Class = "UILabel"; text = "Weather"; ObjectID = "kHk-ax-K77"; */
+"kHk-ax-K77.text" = "天氣";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "kUQ-YQ-rAd"; */
+"kUQ-YQ-rAd.text" = "地點";
+
+/* Class = "UILabel"; text = "DESCRIPTION"; ObjectID = "KXt-Tv-1W0"; */
+"KXt-Tv-1W0.text" = "描述";
+
+/* Class = "UILabel"; text = "TITLE"; ObjectID = "LBC-CH-0Ue"; */
+"LBC-CH-0Ue.text" = "標題";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "MM2-9a-pbI"; */
+"MM2-9a-pbI.text" = "地點";
+
+/* Class = "UIButton"; configuration.title = "Hate"; ObjectID = "nEr-q5-usH"; */
+"nEr-q5-usH.configuration.title" = "討厭";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "nEr-q5-usH"; */
+"nEr-q5-usH.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "O2f-tg-cCC"; */
+"O2f-tg-cCC.text" = "地點";
+
+/* Class = "UITextField"; placeholder = "Fill in the location"; ObjectID = "Qfl-pq-Oqj"; */
+"Qfl-pq-Oqj.placeholder" = "填上發生地點";
+
+/* Class = "UILabel"; text = "LOCATION"; ObjectID = "qZ4-aa-PBP"; */
+"qZ4-aa-PBP.text" = "地點";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "szQ-9o-Ou0"; */
+"szQ-9o-Ou0.text" = "標題";
+
+/* Class = "UILabel"; text = "WEATHER"; ObjectID = "tOf-0F-Adv"; */
+"tOf-0F-Adv.text" = "天氣";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "UC9-nk-CLs"; */
+"UC9-nk-CLs.text" = "日期";
+
+/* Class = "UINavigationItem"; title = "Favorites"; ObjectID = "Uv5-i8-Rmf"; */
+"Uv5-i8-Rmf.title" = "我的最愛";
+
+/* Class = "UIButton"; configuration.title = "Mood"; ObjectID = "VD8-Vu-2Zv"; */
+"VD8-Vu-2Zv.configuration.title" = "心情";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "VD8-Vu-2Zv"; */
+"VD8-Vu-2Zv.normalTitle" = "Button";
+
+/* Class = "UITabBarItem"; title = "Favorites"; ObjectID = "Vdc-hd-nmr"; */
+"Vdc-hd-nmr.title" = "最愛";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "VEY-YM-uxJ"; */
+"VEY-YM-uxJ.text" = "標題";
+
+/* Class = "UITabBarItem"; title = "Main"; ObjectID = "VVl-ff-IOy"; */
+"VVl-ff-IOy.title" = "所有";
+
+/* Class = "UILabel"; text = "Weather"; ObjectID = "W4N-08-Ne6"; */
+"W4N-08-Ne6.text" = "天氣";
+
+/* Class = "UILabel"; text = "Full Location"; ObjectID = "WaO-R1-Jju"; */
+"WaO-R1-Jju.text" = "Full Location";
+
+/* Class = "UIButton"; configuration.title = "Soso"; ObjectID = "yCS-ee-gln"; */
+"yCS-ee-gln.configuration.title" = "還好";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "yCS-ee-gln"; */
+"yCS-ee-gln.normalTitle" = "Button";
+

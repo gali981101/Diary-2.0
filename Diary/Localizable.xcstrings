@@ -1,0 +1,237 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Camera" : {
+      "comment" : "Camera",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "相機"
+          }
+        }
+      }
+    },
+    "Choose your photo source" : {
+      "comment" : "Choose your photo source",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選擇圖片來源"
+          }
+        }
+      }
+    },
+    "Date" : {
+      "comment" : "Date",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "日期"
+          }
+        }
+      }
+    },
+    "Delete" : {
+      "comment" : "Delete",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "刪除"
+          }
+        }
+      }
+    },
+    "Facebook" : {
+      "comment" : "Facebook",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "臉書"
+          }
+        }
+      }
+    },
+    "Instagram" : {
+      "comment" : "Instagram",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "唉居"
+          }
+        }
+      }
+    },
+    "Location" : {
+      "comment" : "Location",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "地點"
+          }
+        }
+      }
+    },
+    "Look at this story (item.title)" : {
+      "comment" : "Look at this story (item.title)",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "來看看我發生什麼事？！..."
+          }
+        }
+      }
+    },
+    "OK" : {
+      "comment" : "OK",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "好的"
+          }
+        }
+      }
+    },
+    "Photo library" : {
+      "comment" : "Photo library",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "圖片庫"
+          }
+        }
+      }
+    },
+    "Rate me on App Store" : {
+      "comment" : "Rate me on App Store",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請幫我評分"
+          }
+        }
+      }
+    },
+    "Remove" : {
+      "comment" : "Remove",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移除最愛"
+          }
+        }
+      }
+    },
+    "Saving data to context" : {
+      "comment" : "Saving data to context",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "將數據存進 context"
+          }
+        }
+      }
+    },
+    "Search diaries..." : {
+      "comment" : "Search diaries...",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "搜尋日記"
+          }
+        }
+      }
+    },
+    "Search favorite diaries..." : {
+      "comment" : "Search favorite diaries...",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "搜尋最愛日記"
+          }
+        }
+      }
+    },
+    "Share" : {
+      "comment" : "Share",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "分享"
+          }
+        }
+      }
+    },
+    "Tell us your feedback" : {
+      "comment" : "Tell us your feedback",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "分享你的使用心得"
+          }
+        }
+      }
+    },
+    "Twitter" : {
+      "comment" : "Twitter",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "推特"
+          }
+        }
+      }
+    },
+    "Wait!" : {
+      "comment" : "Wait!",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "等等！"
+          }
+        }
+      }
+    },
+    "We can't procceed because one of the fields is blank. Please note that all fields are required" : {
+      "comment" : "We can't procceed because one of the fields is blank. Please note that all fields are required",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "填滿所有空格，才能順利發文喔！"
+          }
+        }
+      }
+    },
+    "Write something about this story..." : {
+      "comment" : "Write something about this story...",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "寫些東西..."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,0 +1,69 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Camera" : {
+      "comment" : "Camera"
+    },
+    "Choose your photo source" : {
+      "comment" : "Choose your photo source"
+    },
+    "Date" : {
+      "comment" : "Date"
+    },
+    "Delete" : {
+      "comment" : "Delete"
+    },
+    "Facebook" : {
+      "comment" : "Facebook"
+    },
+    "Instagram" : {
+      "comment" : "Instagram"
+    },
+    "Location" : {
+      "comment" : "Location"
+    },
+    "Look at this story (item.title)" : {
+      "comment" : "Look at this story (item.title)"
+    },
+    "OK" : {
+      "comment" : "OK"
+    },
+    "Photo library" : {
+      "comment" : "Photo library"
+    },
+    "Rate me on App Store" : {
+      "comment" : "Rate me on App Store"
+    },
+    "Remove" : {
+      "comment" : "Remove"
+    },
+    "Saving data to context" : {
+      "comment" : "Saving data to context"
+    },
+    "Search diaries..." : {
+      "comment" : "Search diaries..."
+    },
+    "Search favorite diaries..." : {
+      "comment" : "Search favorite diaries..."
+    },
+    "Share" : {
+      "comment" : "Share"
+    },
+    "Tell us your feedback" : {
+      "comment" : "Tell us your feedback"
+    },
+    "Twitter" : {
+      "comment" : "Twitter"
+    },
+    "Wait!" : {
+      "comment" : "Wait!"
+    },
+    "We can't procceed because one of the fields is blank. Please note that all fields are required" : {
+      "comment" : "We can't procceed because one of the fields is blank. Please note that all fields are required"
+    },
+    "Write something about this story..." : {
+      "comment" : "Write something about this story..."
+    }
+  },
+  "version" : "1.0"
+}

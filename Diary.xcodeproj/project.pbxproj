@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F316CC1C2B446F5800141EA3 /* RouteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316CC1B2B446F5800141EA3 /* RouteTableViewController.swift */; };
+		F354EB002B33E83900EFE9F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354EAFF2B33E83900EFE9F5 /* AppDelegate.swift */; };
+		F354EB022B33E83900EFE9F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354EB012B33E83900EFE9F5 /* SceneDelegate.swift */; };
+		F354EB072B33E83900EFE9F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F354EB052B33E83900EFE9F5 /* Main.storyboard */; };
+		F354EB092B33E83B00EFE9F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F354EB082B33E83B00EFE9F5 /* Assets.xcassets */; };
+		F354EB0C2B33E83B00EFE9F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F354EB0A2B33E83B00EFE9F5 /* LaunchScreen.storyboard */; };
+		F354EB142B33E91D00EFE9F5 /* DiaryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354EB132B33E91D00EFE9F5 /* DiaryTableViewController.swift */; };
+		F354EB162B340F3B00EFE9F5 /* DiaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354EB152B340F3B00EFE9F5 /* DiaryTableViewCell.swift */; };
+		F354EB182B345B3900EFE9F5 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354EB172B345B3900EFE9F5 /* Diary.swift */; };
+		F354EB1F2B34970900EFE9F5 /* DiaryDiffableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354EB1E2B34970900EFE9F5 /* DiaryDiffableDataSource.swift */; };
+		F354EB212B355A6F00EFE9F5 /* DiaryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354EB202B355A6F00EFE9F5 /* DiaryDetailViewController.swift */; };
+		F354EB272B357D4600EFE9F5 /* RubikDoodleShadow-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F354EB252B357D4600EFE9F5 /* RubikDoodleShadow-Regular.ttf */; };
+		F354EB292B3584F200EFE9F5 /* DiaryDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354EB282B3584F200EFE9F5 /* DiaryDetailHeaderView.swift */; };
+		F354EB4B2B35A40900EFE9F5 /* DiaryDetailTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354EB4A2B35A40900EFE9F5 /* DiaryDetailTextCell.swift */; };
+		F354EB4F2B35A88F00EFE9F5 /* DiaryDetailTwoColumnCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354EB4E2B35A88F00EFE9F5 /* DiaryDetailTwoColumnCell.swift */; };
+		F354EB512B36AFAF00EFE9F5 /* DiaryDetailMapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354EB502B36AFAF00EFE9F5 /* DiaryDetailMapCell.swift */; };
+		F354EB532B36CE2A00EFE9F5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354EB522B36CE2A00EFE9F5 /* MapViewController.swift */; };
+		F354EB552B36F83B00EFE9F5 /* MoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354EB542B36F83B00EFE9F5 /* MoodViewController.swift */; };
+		F354EB582B381AB400EFE9F5 /* RoundedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354EB572B381AB400EFE9F5 /* RoundedTextField.swift */; };
+		F354EB5B2B381FEA00EFE9F5 /* NewDiaryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354EB5A2B381FEA00EFE9F5 /* NewDiaryController.swift */; };
+		F354EB862B388EF500EFE9F5 /* Diary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F354EB842B388EF500EFE9F5 /* Diary.xcdatamodeld */; };
+		F354EBB12B39C4BD00EFE9F5 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F354EBB02B39C4BD00EFE9F5 /* Onboarding.storyboard */; };
+		F354EBB42B39FB6E00EFE9F5 /* WalkthroughContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354EBB32B39FB6E00EFE9F5 /* WalkthroughContentViewController.swift */; };
+		F354EBB82B3AA8D200EFE9F5 /* WalkthroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354EBB72B3AA8D200EFE9F5 /* WalkthroughPageViewController.swift */; };
+		F354EBBA2B3AB91600EFE9F5 /* WalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354EBB92B3AB91600EFE9F5 /* WalkthroughViewController.swift */; };
+		F354EBBD2B3B094500EFE9F5 /* About.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F354EBBB2B3B094500EFE9F5 /* About.storyboard */; };
+		F354EBC22B3B113400EFE9F5 /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354EBC12B3B113400EFE9F5 /* AboutTableViewController.swift */; };
+		F354EBC62B3B2B1300EFE9F5 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354EBC52B3B2B1300EFE9F5 /* WebViewController.swift */; };
+		F354EBC92B3B515900EFE9F5 /* FavoriteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354EBC82B3B515900EFE9F5 /* FavoriteTableViewController.swift */; };
+		F354EBCD2B3B55DC00EFE9F5 /* FavoriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354EBCC2B3B55DC00EFE9F5 /* FavoriteTableViewCell.swift */; };
+		F354EBD52B3BB6C600EFE9F5 /* UITableViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354EBD42B3BB6C600EFE9F5 /* UITableViewController+Utils.swift */; };
+		F354EBDA2B3BD55A00EFE9F5 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F354EBD92B3BD55A00EFE9F5 /* InfoPlist.xcstrings */; };
+		F354EBDC2B3BD55A00EFE9F5 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F354EBDB2B3BD55A00EFE9F5 /* Localizable.xcstrings */; };
+		F37FD9112B3D5A170010BB54 /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37FD9102B3D5A170010BB54 /* SwipeTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F316CC1B2B446F5800141EA3 /* RouteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteTableViewController.swift; sourceTree = "<group>"; };
+		F354EAFC2B33E83900EFE9F5 /* Diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F354EAFF2B33E83900EFE9F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F354EB012B33E83900EFE9F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F354EB062B33E83900EFE9F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F354EB082B33E83B00EFE9F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F354EB0B2B33E83B00EFE9F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F354EB0D2B33E83B00EFE9F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F354EB132B33E91D00EFE9F5 /* DiaryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryTableViewController.swift; sourceTree = "<group>"; };
+		F354EB152B340F3B00EFE9F5 /* DiaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryTableViewCell.swift; sourceTree = "<group>"; };
+		F354EB172B345B3900EFE9F5 /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
+		F354EB1E2B34970900EFE9F5 /* DiaryDiffableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryDiffableDataSource.swift; sourceTree = "<group>"; };
+		F354EB202B355A6F00EFE9F5 /* DiaryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryDetailViewController.swift; sourceTree = "<group>"; };
+		F354EB252B357D4600EFE9F5 /* RubikDoodleShadow-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RubikDoodleShadow-Regular.ttf"; sourceTree = "<group>"; };
+		F354EB282B3584F200EFE9F5 /* DiaryDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryDetailHeaderView.swift; sourceTree = "<group>"; };
+		F354EB4A2B35A40900EFE9F5 /* DiaryDetailTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryDetailTextCell.swift; sourceTree = "<group>"; };
+		F354EB4E2B35A88F00EFE9F5 /* DiaryDetailTwoColumnCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryDetailTwoColumnCell.swift; sourceTree = "<group>"; };
+		F354EB502B36AFAF00EFE9F5 /* DiaryDetailMapCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryDetailMapCell.swift; sourceTree = "<group>"; };
+		F354EB522B36CE2A00EFE9F5 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F354EB542B36F83B00EFE9F5 /* MoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodViewController.swift; sourceTree = "<group>"; };
+		F354EB572B381AB400EFE9F5 /* RoundedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTextField.swift; sourceTree = "<group>"; };
+		F354EB5A2B381FEA00EFE9F5 /* NewDiaryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDiaryController.swift; sourceTree = "<group>"; };
+		F354EB852B388EF500EFE9F5 /* Diary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Diary.xcdatamodel; sourceTree = "<group>"; };
+		F354EBB02B39C4BD00EFE9F5 /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		F354EBB32B39FB6E00EFE9F5 /* WalkthroughContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughContentViewController.swift; sourceTree = "<group>"; };
+		F354EBB72B3AA8D200EFE9F5 /* WalkthroughPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughPageViewController.swift; sourceTree = "<group>"; };
+		F354EBB92B3AB91600EFE9F5 /* WalkthroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughViewController.swift; sourceTree = "<group>"; };
+		F354EBBC2B3B094500EFE9F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Diary/Storyboard/Base.lproj/About.storyboard; sourceTree = "<group>"; };
+		F354EBC12B3B113400EFE9F5 /* AboutTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTableViewController.swift; sourceTree = "<group>"; };
+		F354EBC52B3B2B1300EFE9F5 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		F354EBC82B3B515900EFE9F5 /* FavoriteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewController.swift; sourceTree = "<group>"; };
+		F354EBCC2B3B55DC00EFE9F5 /* FavoriteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewCell.swift; sourceTree = "<group>"; };
+		F354EBD42B3BB6C600EFE9F5 /* UITableViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewController+Utils.swift"; sourceTree = "<group>"; };
+		F354EBD62B3BCCA000EFE9F5 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		F354EBD72B3BCCA000EFE9F5 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		F354EBD82B3BCCA000EFE9F5 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "Diary/Storyboard/zh-Hant.lproj/About.strings"; sourceTree = "<group>"; };
+		F354EBD92B3BD55A00EFE9F5 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		F354EBDB2B3BD55A00EFE9F5 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		F37FD9102B3D5A170010BB54 /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F354EAF92B33E83900EFE9F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F316CC1A2B446F0300141EA3 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				F354EB522B36CE2A00EFE9F5 /* MapViewController.swift */,
+				F316CC1B2B446F5800141EA3 /* RouteTableViewController.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		F354EAF32B33E83900EFE9F5 = {
+			isa = PBXGroup;
+			children = (
+				F354EAFE2B33E83900EFE9F5 /* Diary */,
+				F354EAFD2B33E83900EFE9F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F354EAFD2B33E83900EFE9F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F354EAFC2B33E83900EFE9F5 /* Diary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F354EAFE2B33E83900EFE9F5 /* Diary */ = {
+			isa = PBXGroup;
+			children = (
+				F354EB842B388EF500EFE9F5 /* Diary.xcdatamodeld */,
+				F354EAFF2B33E83900EFE9F5 /* AppDelegate.swift */,
+				F354EB012B33E83900EFE9F5 /* SceneDelegate.swift */,
+				F354EB1C2B348C0200EFE9F5 /* Model */,
+				F354EB1B2B348BE600EFE9F5 /* View */,
+				F354EB1A2B348BB000EFE9F5 /* Controller */,
+				F354EB192B348B7300EFE9F5 /* Storyboard */,
+				F354EB592B381F6100EFE9F5 /* Utils */,
+				F354EB222B357CF700EFE9F5 /* Resources */,
+				F354EB1D2B348C1F00EFE9F5 /* Files */,
+			);
+			path = Diary;
+			sourceTree = "<group>";
+		};
+		F354EB192B348B7300EFE9F5 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				F354EB0A2B33E83B00EFE9F5 /* LaunchScreen.storyboard */,
+				F354EBB02B39C4BD00EFE9F5 /* Onboarding.storyboard */,
+				F354EB052B33E83900EFE9F5 /* Main.storyboard */,
+				F354EBBB2B3B094500EFE9F5 /* About.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		F354EB1A2B348BB000EFE9F5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F37FD9102B3D5A170010BB54 /* SwipeTableViewController.swift */,
+				F354EBB22B39FAEA00EFE9F5 /* Onboarding */,
+				F354EBC42B3B2A5E00EFE9F5 /* Main */,
+				F354EBC72B3B50E900EFE9F5 /* Favorite */,
+				F354EBC32B3B2A4200EFE9F5 /* About */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F354EB1B2B348BE600EFE9F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F354EB4C2B35A41D00EFE9F5 /* Cell */,
+				F354EB562B381A5400EFE9F5 /* UITextField */,
+				F354EB4D2B35A43200EFE9F5 /* HeaderView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F354EB1C2B348C0200EFE9F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F354EB172B345B3900EFE9F5 /* Diary.swift */,
+				F354EB1E2B34970900EFE9F5 /* DiaryDiffableDataSource.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F354EB1D2B348C1F00EFE9F5 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				F354EBD92B3BD55A00EFE9F5 /* InfoPlist.xcstrings */,
+				F354EBDB2B3BD55A00EFE9F5 /* Localizable.xcstrings */,
+				F354EB082B33E83B00EFE9F5 /* Assets.xcassets */,
+				F354EB0D2B33E83B00EFE9F5 /* Info.plist */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
+		F354EB222B357CF700EFE9F5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F354EB232B357D1A00EFE9F5 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F354EB232B357D1A00EFE9F5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F354EB252B357D4600EFE9F5 /* RubikDoodleShadow-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F354EB4C2B35A41D00EFE9F5 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F354EBCA2B3B54F500EFE9F5 /* Main */,
+				F354EBCB2B3B552F00EFE9F5 /* Favorite */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F354EB4D2B35A43200EFE9F5 /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				F354EB282B3584F200EFE9F5 /* DiaryDetailHeaderView.swift */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		F354EB562B381A5400EFE9F5 /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				F354EB572B381AB400EFE9F5 /* RoundedTextField.swift */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+		F354EB592B381F6100EFE9F5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F37FD9122B3D8CDA0010BB54 /* Extension */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F354EBB22B39FAEA00EFE9F5 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				F354EBB92B3AB91600EFE9F5 /* WalkthroughViewController.swift */,
+				F354EBB72B3AA8D200EFE9F5 /* WalkthroughPageViewController.swift */,
+				F354EBB32B39FB6E00EFE9F5 /* WalkthroughContentViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		F354EBC32B3B2A4200EFE9F5 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				F354EBC12B3B113400EFE9F5 /* AboutTableViewController.swift */,
+				F354EBC52B3B2B1300EFE9F5 /* WebViewController.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		F354EBC42B3B2A5E00EFE9F5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F354EB132B33E91D00EFE9F5 /* DiaryTableViewController.swift */,
+				F354EB202B355A6F00EFE9F5 /* DiaryDetailViewController.swift */,
+				F354EB542B36F83B00EFE9F5 /* MoodViewController.swift */,
+				F354EB5A2B381FEA00EFE9F5 /* NewDiaryController.swift */,
+				F316CC1A2B446F0300141EA3 /* Map */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F354EBC72B3B50E900EFE9F5 /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				F354EBC82B3B515900EFE9F5 /* FavoriteTableViewController.swift */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		F354EBCA2B3B54F500EFE9F5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F354EB152B340F3B00EFE9F5 /* DiaryTableViewCell.swift */,
+				F354EB4A2B35A40900EFE9F5 /* DiaryDetailTextCell.swift */,
+				F354EB4E2B35A88F00EFE9F5 /* DiaryDetailTwoColumnCell.swift */,
+				F354EB502B36AFAF00EFE9F5 /* DiaryDetailMapCell.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F354EBCB2B3B552F00EFE9F5 /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				F354EBCC2B3B55DC00EFE9F5 /* FavoriteTableViewCell.swift */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		F37FD9122B3D8CDA0010BB54 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F354EBD42B3BB6C600EFE9F5 /* UITableViewController+Utils.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F354EAFB2B33E83900EFE9F5 /* Diary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F354EB102B33E83B00EFE9F5 /* Build configuration list for PBXNativeTarget "Diary" */;
+			buildPhases = (
+				F354EAF82B33E83900EFE9F5 /* Sources */,
+				F354EAF92B33E83900EFE9F5 /* Frameworks */,
+				F354EAFA2B33E83900EFE9F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Diary;
+			productName = Diary;
+			productReference = F354EAFC2B33E83900EFE9F5 /* Diary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F354EAF42B33E83900EFE9F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					F354EAFB2B33E83900EFE9F5 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = F354EAF72B33E83900EFE9F5 /* Build configuration list for PBXProject "Diary" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hant",
+			);
+			mainGroup = F354EAF32B33E83900EFE9F5;
+			productRefGroup = F354EAFD2B33E83900EFE9F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F354EAFB2B33E83900EFE9F5 /* Diary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F354EAFA2B33E83900EFE9F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F354EB0C2B33E83B00EFE9F5 /* LaunchScreen.storyboard in Resources */,
+				F354EBDA2B3BD55A00EFE9F5 /* InfoPlist.xcstrings in Resources */,
+				F354EBDC2B3BD55A00EFE9F5 /* Localizable.xcstrings in Resources */,
+				F354EBB12B39C4BD00EFE9F5 /* Onboarding.storyboard in Resources */,
+				F354EBBD2B3B094500EFE9F5 /* About.storyboard in Resources */,
+				F354EB092B33E83B00EFE9F5 /* Assets.xcassets in Resources */,
+				F354EB272B357D4600EFE9F5 /* RubikDoodleShadow-Regular.ttf in Resources */,
+				F354EB072B33E83900EFE9F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F354EAF82B33E83900EFE9F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F354EB002B33E83900EFE9F5 /* AppDelegate.swift in Sources */,
+				F354EB4F2B35A88F00EFE9F5 /* DiaryDetailTwoColumnCell.swift in Sources */,
+				F354EB512B36AFAF00EFE9F5 /* DiaryDetailMapCell.swift in Sources */,
+				F354EB182B345B3900EFE9F5 /* Diary.swift in Sources */,
+				F354EBC62B3B2B1300EFE9F5 /* WebViewController.swift in Sources */,
+				F354EBC92B3B515900EFE9F5 /* FavoriteTableViewController.swift in Sources */,
+				F354EB5B2B381FEA00EFE9F5 /* NewDiaryController.swift in Sources */,
+				F354EB142B33E91D00EFE9F5 /* DiaryTableViewController.swift in Sources */,
+				F354EB212B355A6F00EFE9F5 /* DiaryDetailViewController.swift in Sources */,
+				F354EBBA2B3AB91600EFE9F5 /* WalkthroughViewController.swift in Sources */,
+				F354EB1F2B34970900EFE9F5 /* DiaryDiffableDataSource.swift in Sources */,
+				F354EB532B36CE2A00EFE9F5 /* MapViewController.swift in Sources */,
+				F354EBB42B39FB6E00EFE9F5 /* WalkthroughContentViewController.swift in Sources */,
+				F354EBCD2B3B55DC00EFE9F5 /* FavoriteTableViewCell.swift in Sources */,
+				F354EBC22B3B113400EFE9F5 /* AboutTableViewController.swift in Sources */,
+				F354EBD52B3BB6C600EFE9F5 /* UITableViewController+Utils.swift in Sources */,
+				F354EB022B33E83900EFE9F5 /* SceneDelegate.swift in Sources */,
+				F316CC1C2B446F5800141EA3 /* RouteTableViewController.swift in Sources */,
+				F354EB862B388EF500EFE9F5 /* Diary.xcdatamodeld in Sources */,
+				F354EBB82B3AA8D200EFE9F5 /* WalkthroughPageViewController.swift in Sources */,
+				F354EB552B36F83B00EFE9F5 /* MoodViewController.swift in Sources */,
+				F354EB292B3584F200EFE9F5 /* DiaryDetailHeaderView.swift in Sources */,
+				F354EB582B381AB400EFE9F5 /* RoundedTextField.swift in Sources */,
+				F354EB162B340F3B00EFE9F5 /* DiaryTableViewCell.swift in Sources */,
+				F354EB4B2B35A40900EFE9F5 /* DiaryDetailTextCell.swift in Sources */,
+				F37FD9112B3D5A170010BB54 /* SwipeTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F354EB052B33E83900EFE9F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F354EB062B33E83900EFE9F5 /* Base */,
+				F354EBD72B3BCCA000EFE9F5 /* zh-Hant */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F354EB0A2B33E83B00EFE9F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F354EB0B2B33E83B00EFE9F5 /* Base */,
+				F354EBD62B3BCCA000EFE9F5 /* zh-Hant */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F354EBBB2B3B094500EFE9F5 /* About.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F354EBBC2B3B094500EFE9F5 /* Base */,
+				F354EBD82B3BCCA000EFE9F5 /* zh-Hant */,
+			);
+			name = About.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F354EB0E2B33E83B00EFE9F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F354EB0F2B33E83B00EFE9F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F354EB112B33E83B00EFE9F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WT2DZRQ5QP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Diary/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gali.Diary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F354EB122B33E83B00EFE9F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WT2DZRQ5QP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Diary/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gali.Diary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F354EAF72B33E83900EFE9F5 /* Build configuration list for PBXProject "Diary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F354EB0E2B33E83B00EFE9F5 /* Debug */,
+				F354EB0F2B33E83B00EFE9F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F354EB102B33E83B00EFE9F5 /* Build configuration list for PBXNativeTarget "Diary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F354EB112B33E83B00EFE9F5 /* Debug */,
+				F354EB122B33E83B00EFE9F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F354EB842B388EF500EFE9F5 /* Diary.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F354EB852B388EF500EFE9F5 /* Diary.xcdatamodel */,
+			);
+			currentVersion = F354EB852B388EF500EFE9F5 /* Diary.xcdatamodel */;
+			path = Diary.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F354EAF42B33E83900EFE9F5 /* Project object */;
+}
